@@ -50,6 +50,7 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'PhoneBook.urls'
+AUTH_USER_MODEL = "accounts.Account"
 
 TEMPLATES = [
     {
